@@ -15,6 +15,7 @@ clf.fit(feature_train,labels_train)
 pred = clf.predict(feature_test)
 print(pred)
 
+# for finding accracy of a program
 from sklearn.metrics import accuracy_score
 print(accuracy_score(labels_test, pred))
 
